@@ -1,4 +1,22 @@
 
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; 
+    }
+
+    article, aside {
+        flex: none; 
+        width: 100%; 
+    }
+}
+
+
+
+
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,9 +31,18 @@ main {
 }
 
 
-article {
-    flex: 2; 
-        overflow-y: auto}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; 
+    }
+
+    article, aside {
+        flex: none; 
+        width: 100%; 
+    }
+}
+
 
 aside {
     flex: 1; 
