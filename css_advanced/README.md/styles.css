@@ -1,5 +1,5 @@
 header {
-    background-color: grey; 
+    
     padding: 10px;
 }
 
@@ -29,3 +29,87 @@ a {
     color: white; 
     font-weight: bold; 
 }
+
+body{
+    background-size: contain;
+}
+
+
+
+div {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 90px;
+}
+
+span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button {
+    background-color: purple; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: darkviolet; 
+}
+
+
+
+
+
+
+
+
+
+
+.learn {
+    color: purple;
+    font-weight: bold; 
+}
+
+h2 {
+    color: white;
+}
+
+
+.container {
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: small;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 30%; 
+    object-fit: cover;
+}
+
+h3 {
+    color: white;
+    margin: 10px 0 5px; 
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
