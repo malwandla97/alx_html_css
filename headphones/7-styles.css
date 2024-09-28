@@ -1,0 +1,30 @@
+.icon, .pentagon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon:hover, .pentagon:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
+}
+
+.animate {
+    opacity: 0; 
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .icon, .pentagon {
+        margin: 10px;
+    }
+}
